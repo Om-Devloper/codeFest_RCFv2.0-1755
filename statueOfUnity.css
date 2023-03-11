@@ -1,0 +1,16 @@
+.body {
+    background-color: rgb(251, 239, 223);
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+.header{
+    background-color: white;
+    padding: 0 5px;
+}
+img.header{
+    width: 120px;
+    margin-right: 450px;
+}
