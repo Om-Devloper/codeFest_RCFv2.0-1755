@@ -69,16 +69,15 @@ color: black;
   }
   
   @media screen and (max-width: 960px) {
+    .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    .topnav.responsive a {
+    .topnav.responsive a{
       float: none;
       display: block;
-    
-    
     }
   }
   
