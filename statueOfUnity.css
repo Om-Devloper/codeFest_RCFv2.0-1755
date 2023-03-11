@@ -28,7 +28,7 @@ marquee.details{
 img.unity{
 
 }
-@media only screen and (max-width: 1768px) {
+@media only screen and (max-width: 960px) {
   /* For mobile phones: */
   [class*="unity"] {
     margin-left: 170px;
