@@ -33,6 +33,12 @@ img.unity {
     padding-left: 12%;
   }
 }
+@media only screen and (max-width: 960px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
 .topnav {
   overflow: hidden;
   padding: 22px 0 ;
