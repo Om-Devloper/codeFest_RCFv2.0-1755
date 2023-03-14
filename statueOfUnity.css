@@ -1,5 +1,7 @@
+
 .body {
-  background-color: rgb(251, 239, 223);
+    background-color: rgb(251, 239, 223);
+    overflow-x: hidden;
 }
 .footer {
   background-color: black;
@@ -27,14 +29,13 @@ marquee.details {
 img.unity {
 }
 @media only screen and (max-width: 960px) {
-  /* For mobile phones: */
   [class*="unity"] {
-    margin-left: 170px;
+    padding-left: 12%;
   }
 }
 .topnav {
   overflow: hidden;
-  padding: 22px;
+  padding: 22px 0 ;
 }
 
 .topnav a {
@@ -63,17 +64,16 @@ img.unity {
     display: none;
   }
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+    .topnav.responsive .icon {
+        float: left;
+        display: block;
+    }
   .topnav.responsive a {
     float: none;
     display: block;
@@ -95,6 +95,4 @@ li.bylist {
 .attraction{
     background-color: #ffffff;
     padding: 15px;
-    
-    
 }
