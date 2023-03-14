@@ -30,7 +30,10 @@ img.unity {
 }
 @media only screen and (max-width: 960px) {
   [class*="unity"] {
-    padding-left: 12%;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   }
 }
 @media only screen and (max-width: 960px) {
